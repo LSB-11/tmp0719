@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myfix{
+            display: flex;
+            border: 1px solid black;
+            position: fixed;
+            height: 1200px;
+            border: 10px solid red;
+        }
+        .menu, .logo, .right{
+            border: 1px solid black;
+        }
+        .c1{
+            flex: 1;
+        }
+        .c2{
+            flex: 1;
+        }
+        .c3{
+            flex: 1;
+        }
+        .c4{
+            flex: 10;
+            text-align: center;
+        }
+        .c5{
+            flex: 1;
+        }
+        .c6{
+            flex: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="myfix">
+        <div class="menu c1">메뉴1 </div>
+        <div class="menu c2">메뉴2 </div>
+        <div class="menu c3">메뉴3 </div>
+        <div class="logo c4">logo</div>
+        <div class="right c5">회원가입 </div>
+        <div class="right c6">로그인 </div>
+    </div>
+</body>
+</html>
